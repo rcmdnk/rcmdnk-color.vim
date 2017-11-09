@@ -3,13 +3,12 @@
 " URL:        https://github.com/rcmdnk/rcmdnk-color.vom
 " License:    MIT
 
+let g:colors_name = expand('<sfile>:t:r')
 set background=dark
 hi clear
 if exists('syntax_on')
   syntax reset
 endif
-
-let g:colors_name = 'rcmdnk'
 
 " Normal, needed for some plugins
 hi Normal ctermbg=0

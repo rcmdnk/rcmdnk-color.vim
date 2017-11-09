@@ -12,7 +12,7 @@ endif
 let g:colors_name = 'rcmdnk'
 
 " Normal, needed for some plugins
-hi Normal
+hi Normal ctermbg=0
 
 " Spell check
 hi SpellBad cterm=underline ctermbg=0

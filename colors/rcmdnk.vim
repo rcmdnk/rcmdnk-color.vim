@@ -29,19 +29,19 @@ hi link MySpecialKey SpecialKey
 autocmd VimEnter,WinEnter * match MySpecialKey '\(\t\| \+$\)'
 
 " Completion
-hi Pmenu ctermbg=255 ctermfg=0 guifg=#000000 guibg=#999999
+hi Pmenu ctermbg=255 ctermfg=0
 hi PmenuSel ctermbg=blue ctermfg=black
 hi PmenuSbar ctermbg=0 ctermfg=9
-hi PmenuSbar ctermbg=255 ctermfg=0 guifg=#000000 guibg=#FFFFFF
+hi PmenuSbar ctermbg=255 ctermfg=0
 
 " Diff mode
-hi DiffAdd cterm=bold ctermbg=17 gui=bold guibg=slateblue
-hi DiffChange ctermbg=22 guibg=darkgreen
-hi DiffText cterm=bold ctermbg=52 gui=bold guibg=olivedrab
-hi DiffDelete ctermbg=6 guibg=coral
+hi DiffAdd cterm=bold ctermbg=17
+hi DiffChange ctermbg=22
+hi DiffText cterm=bold ctermbg=52
+hi DiffDelete ctermbg=6
 
 " Search
-hi Search term=reverse ctermfg=Red ctermbg=11 guifg=Black
+hi Search term=reverse ctermfg=Red ctermbg=11
 
 " SpecialKey
 hi SpecialKey term=bold ctermfg=9

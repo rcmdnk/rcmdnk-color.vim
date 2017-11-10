@@ -10,8 +10,8 @@ if exists('syntax_on')
 endif
 let g:colors_name = expand('<sfile>:t:r')
 
-" Normal, needed for some plugins
-hi Normal ctermbg=0
+" Define Normal (needed for some plugins)
+hi clear Normal
 
 " Spell check
 hi SpellBad cterm=underline ctermbg=0

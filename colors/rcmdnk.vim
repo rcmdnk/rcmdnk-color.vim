@@ -57,3 +57,10 @@ hi link htmlBoldItalic ErrorMsg
 " Two byte space
 hi link TwoByteSpace Error
 autocmd VimEnter,WinEnter * 2match TwoByteSpace '　'
+
+" Popup
+hi Pmenu ctermfg=251 ctermbg=237
+hi PmenuSel ctermfg=255 ctermbg=247 cterm=bold
+hi PmenuSbar ctermbg=244
+hi PmenuThumb ctermbg=250
+

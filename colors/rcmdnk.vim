@@ -5,6 +5,10 @@
 
 set background=dark
 hi clear
+" for nvim >= 0.10
+if filereadable($VIMRUNTIME . '/colors/vim.lua')
+  source $VIMRUNTIME/colors/vim.lua
+endif
 if exists('syntax_on')
   syntax reset
 endif
@@ -63,4 +67,3 @@ hi Pmenu ctermfg=251 ctermbg=237
 hi PmenuSel ctermfg=255 ctermbg=247 cterm=bold
 hi PmenuSbar ctermbg=244
 hi PmenuThumb ctermbg=250
-
